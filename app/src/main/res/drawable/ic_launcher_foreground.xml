@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.8"
+        android:scaleY="0.8">
+        <!-- Isometric 3D Cube Top Face -->
+        <path
+            android:pathData="M54,24 L78,38 L54,52 L30,38 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="30"
+                    android:startY="24"
+                    android:endX="78"
+                    android:endY="52"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#38BDF8" />
+                    <item android:offset="1.0" android:color="#0284C7" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Isometric 3D Cube Left Face -->
+        <path
+            android:pathData="M30,38 L54,52 L54,80 L30,66 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="30"
+                    android:startY="38"
+                    android:endX="54"
+                    android:endY="80"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#0284C7" />
+                    <item android:offset="1.0" android:color="#0369A1" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Isometric 3D Cube Right Face -->
+        <path
+            android:pathData="M54,52 L78,38 L78,66 L54,80 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="54"
+                    android:startY="38"
+                    android:endX="78"
+                    android:endY="80"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#0EA5E9" />
+                    <item android:offset="1.0" android:color="#0284C7" />
+                </gradient>
+            </aapt:attr>
+        </path>
+        <!-- Dynamic Science Orbit Ring 1 (Coral/Amber) -->
+        <path
+            android:strokeColor="#F43F5E"
+            android:strokeWidth="3.2"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M22,60 C18,46 36,32 58,34 C76,36 90,52 86,64 C82,76 60,86 42,82" />
+        <!-- Dynamic Science Orbit Ring 2 (Emerald/Cyan) -->
+        <path
+            android:strokeColor="#10B981"
+            android:strokeWidth="2.8"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000"
+            android:pathData="M84,42 C88,56 70,72 48,70 C28,68 18,52 22,40 C26,28 50,20 68,26" />
+        <!-- Cube Vertex Highlight Nodes -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,24m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M78,38m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M30,38m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0" />
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M54,52m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,80m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0" />
+        <path
+            android:fillColor="#FBBF24"
+            android:pathData="M84,62m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0" />
+        <path
+            android:fillColor="#34D399"
+            android:pathData="M24,42m-2.5,0a2.5,2.5 0 1,0 5,0a2.5,2.5 0 1,0 -5,0" />
+    </group>
+</vector>
